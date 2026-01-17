@@ -20,7 +20,6 @@ export function Lookbook() {
 
   return (
     <>
-      {/* CAMBIO 1: id="lookbook" para el scroll desde el Hero */}
       <section id="lookbook" className="w-full bg-zinc-50 py-24 md:py-32 border-t border-zinc-200">
         <div className="container mx-auto px-6">
           
@@ -43,13 +42,18 @@ export function Lookbook() {
                 onClick={() => setSelectedImage(item.image)}
               >
                 
-                {/* Contenedor Imagen */}
-                <div className="relative overflow-hidden bg-zinc-200 aspect-[4/5] md:aspect-auto">
+                {/* CAMBIO APLICADO AQUÍ: 
+                   1. Eliminé 'aspect-[4/5]' y 'md:aspect-auto'.
+                   2. Dejamos solo el div contenedor.
+                   Esto hace que la caja gris abrace la foto exactamente, sin sobrar espacio arriba o abajo.
+                */}
+                <div className="relative overflow-hidden bg-zinc-200 w-full">
                    <Image
                       src={item.image}
                       alt={item.title}
                       width={600}
                       height={800}
+                      // Aseguramos que la imagen dicte la altura
                       className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105 opacity-90 group-hover:opacity-100"
                    />
                 </div>
@@ -76,7 +80,6 @@ export function Lookbook() {
                   Empezamos?
               </h2>
               <div className="flex flex-col sm:flex-row gap-6">
-                  {/* CAMBIO 2: Link al formulario del footer (#contact) */}
                   <a href="#contact">
                     <Button size="lg" className="bg-black text-white rounded-none px-10 py-6 text-xs font-bold uppercase tracking-widest hover:bg-zinc-800">
                         Contactanos
