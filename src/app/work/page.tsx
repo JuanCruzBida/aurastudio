@@ -1,0 +1,8 @@
+export default function WorkPage() {
+    return (
+        <main className="flex min-h-[50vh] flex-col items-center justify-center">
+            <h1 className="font-serif text-4xl font-medium">Work</h1>
+            <p className="mt-4 text-muted-foreground">Featured campaigns and collaborations.</p>
+        </main>
+    );
+}
