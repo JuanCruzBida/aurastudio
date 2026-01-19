@@ -58,8 +58,7 @@ export function TalentRoster() {
           </h2>
 
           {/* Bajada */}
-          <p className="text-lg md:text-xl font-light leading-relaxed text-zinc-600 font-sans max-w-2xl">
-            La fotografía tradicional es exorbitantemente cara. El stock es genérico y sin alma. 
+          <p className="text-lg md:text-xl font-light leading-relaxed text-zinc-600 font-sans max-w-2xl"> 
             Ofrecemos el punto medio perfecto: modelos consistentes, en cualquier espacio-tiempo.
             <span className="ml-2 border-b border-black pb-0.5 font-medium text-black">
               Menor costo, mayor ventaja competitiva

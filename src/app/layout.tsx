@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Aura Studio | Modelos Virtuales",
+  title: "Binary Skin Studio | Modelos Virtuales",
   description: "Agencia de modelos generadas por IA. Reducí costos de producción con talento virtual consistente.",
   icons: {
     icon: '/icon.png', // Busca el archivo icon.png en la carpeta public

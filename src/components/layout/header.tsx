@@ -53,11 +53,11 @@ export function Header() {
                 >
 
                     <span className="text-xl md:text-2xl font-serif font-bold tracking-[0.2em] uppercase text-black">
-                        Aura
+                        Binary Skin
                     </span>
                     {/* STUDIO: Sans, chico, abajo */}
                     <span className="text-[8px] md:text-[10px] font-sans font-medium tracking-[0.4em] uppercase text-zinc-500 group-hover:text-black transition-colors -mt-1 md:-mt-1.5 ml-1">
-                        Virtual Studio
+                        Studio
                     </span>
                 </a>
 
