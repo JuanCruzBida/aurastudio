@@ -38,10 +38,10 @@ export function ProcessSection() {
               </div>
               <div className="space-y-4 z-10">
                 <h4 className="text-xl font-bold text-black uppercase tracking-wider font-sans">
-                  Elegí un talento
+                  Casting Digital
                 </h4>
                 <p className="text-sm text-zinc-500 leading-relaxed font-light font-sans">
-                  Navegá nuestro roster exclusivo de modelos digitales o encargá un avatar personalizado adaptado a las necesidades de tu campaña.
+                  No usamos caras genéricas; creamos personajes a medida de tu negocio, que lleva su ADN y conecta con tu audiencia.
                 </p>
               </div>
             </div>
@@ -55,10 +55,10 @@ export function ProcessSection() {
               </div>
               <div className="space-y-4 z-10">
                 <h4 className="text-xl font-bold text-black uppercase tracking-wider font-sans">
-                  Brief
+                  Dirección de Arte
                 </h4>
                 <p className="text-sm text-zinc-500 leading-relaxed font-light font-sans">
-                  Enviá tu brief creativo y referencias de prendas. Nosotros nos encargamos de la composición de la escena, iluminación y dirección de arte.
+                  Convertimos conceptos en imágenes tangibles. Curamos cada detalle, desde la luz hasta el entorno, asegurando que el resultado visual eleve la percepción de valor de tus productos.
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ export function ProcessSection() {
                   Producción & Entrega
                 </h4>
                 <p className="text-sm text-zinc-500 leading-relaxed font-light font-sans">
-                  Renderizado de alta fidelidad y post-producción. Recibí activos listos para campaña, adaptados a todos los canales de medios.
+                  Entrega de activos en alta resolución, curados y listos para impactar visualmente en todas tus plataformas digitales y redes sociales.
                 </p>
               </div>
             </div>
