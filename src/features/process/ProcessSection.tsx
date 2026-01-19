@@ -58,7 +58,7 @@ export function ProcessSection() {
                   Dirección de Arte
                 </h4>
                 <p className="text-sm text-zinc-500 leading-relaxed font-light font-sans">
-                  Convertimos conceptos en imágenes tangibles. Curamos cada detalle, desde la luz hasta el entorno, asegurando que el resultado visual eleve la percepción de valor de tus productos.
+                  Curamos cada detalle, desde la luz hasta el entorno, asegurando que el resultado visual eleve la percepción de valor de tus productos.
                 </p>
               </div>
             </div>
